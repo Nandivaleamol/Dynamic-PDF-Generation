@@ -33,7 +33,7 @@ The request body of the API call looks something like this:
 }
 
 - PDF Sample
-![image](https://user-images.githubusercontent.com/91825705/221169196-826e7769-c52f-4e24-a9c1-ac183349182e.png)
+![image](https://user-images.githubusercontent.com/91825705/221169805-277d8ffe-4eca-4535-b7be-76344ae531b0.png)
 
 
 Note
