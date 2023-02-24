@@ -1,0 +1,14 @@
+server:
+  port: 9191
+
+#mysql db configuration
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/pdf-generation
+    password: root
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
