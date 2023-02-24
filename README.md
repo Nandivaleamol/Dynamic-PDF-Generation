@@ -46,12 +46,17 @@ Note
 
 # Simple Documentation
 
-Documentation for Spring Boot Application with REST API to Generate PDF using Java Template Engine
+- Documentation for Spring Boot Application with REST API to Generate PDF using Java Template Engine
 
-Introduction:
-This project is a simple implementation of a REST API in Spring Boot that accepts data in a specific format and generates a PDF document based on the received data. The PDF document is generated using iText or Thymeleaf Java Template Engines. The generated PDF document can be downloaded and stored locally.
+- Introduction:
+This project is a simple implementation of a REST API in Spring Boot that accepts data in a specific format 
 
-Requirements:
+and generates a PDF document based on the received data. The PDF document is generated using iText or Thymeleaf Java Template Engines. 
+
+The generated PDF document can be downloaded and stored locally.
+
+- Requirements:
+
 The project has the following requirements:
 
 A REST API that accepts data in a specific format.
