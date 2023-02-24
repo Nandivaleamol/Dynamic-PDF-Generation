@@ -5,7 +5,7 @@ Dynamic PDF Generator
 
 Build a Spring Boot Application with REST API to generate PDF using Java Template Engine.
 
-- Requirement
+# Requirement
 1 REST API to accept data and generate a PDF based on the received data.
 
 2 Ability to download the above-generated PDF
@@ -55,43 +55,67 @@ and generates a PDF document based on the received data. The PDF document is gen
 
 The generated PDF document can be downloaded and stored locally.
 
-- Requirements:
+# Requirements:
 
-The project has the following requirements:
+- The project has the following requirements:
 
 A REST API that accepts data in a specific format.
+
 The received data should be used to generate a PDF document.
+
 The PDF document should be generated using either iText or Thymeleaf Java Template Engines.
+
 The generated PDF document should be stored locally and should be retrievable later.
+
 The input data should have a proper schema.
+
 No UI is required, only REST APIs.
+
 The project should be testable on Postman/Swagger.
+
 The code should be properly structured.
+
 Test cases should be implemented using Test Driven Development (TDD).
-Dependencies:
+
+- Dependencies:
+
 The project has the following dependencies:
 
-Spring Boot Starter Web
-Spring Boot Starter Data JPA
-MySQL Driver
-iText PDF
-Thymeleaf
-Project Structure:
+1 Spring Boot Starter Web
+2 Spring Boot Starter Data JPA
+3 MySQL Driver
+4 iText PDF
+5 Thymeleaf
+
+- Project Structure:
 The project structure is as follows:
 
 The controller package contains the InvoiceController class, which is responsible for handling the REST API requests.
+
 The service package contains the InvoiceService class, which is responsible for generating the PDF document.
+
 The repository package contains the InvoiceRepository interface, which is responsible for storing the received data into a MySQL database.
+
 The entity package contains the Invoice class, which represents the received data.
-How to Use:
+
+- How to Use:
 To use the project, follow the steps below:
 
 Clone the project from the GitHub repository.
+
 Open the project in your preferred Java IDE.
+
 Update the MySQL database configuration in the application.properties file.
+
 Build the project using Maven.
+
 Run the project.
+
 Use Postman or Swagger to test the REST API.
+
 The generated PDF document will be stored locally and can be retrieved later.
-Conclusion:
-This project is a simple implementation of a REST API in Spring Boot that generates a PDF document based on received data. It can be used as a starting point for more complex projects that require generating PDF documents using Java Template Engines.
+
+- Conclusion:
+
+This project is a simple implementation of a REST API in Spring Boot that generates a PDF document based on received data. 
+It can be used as a starting point for more complex projects that require generating PDF documents using Java Template Engines.
