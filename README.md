@@ -81,11 +81,11 @@ Test cases should be implemented using Test Driven Development (TDD).
 
 The project has the following dependencies:
 
-1 Spring Boot Starter Web
-2 Spring Boot Starter Data JPA
-3 MySQL Driver
-4 iText PDF
-5 Thymeleaf
+- Spring Boot Starter Web
+- Spring Boot Starter Data JPA
+- MySQL Driver
+- iText PDF
+- Thymeleaf
 
 - Project Structure:
 The project structure is as follows:
